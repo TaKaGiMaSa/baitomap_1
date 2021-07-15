@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <title>登録者ページ</title>
+    <link rel="stylesheet" type="text/css" href="baito.css">
+    <script src="http://maps.google.com/maps/api/js?key=AIzaSyCGU9VlVTU3zIqOudcPBuQCLegAtfAofjU&language=ja"></script>
+    <!-- <style>
+        #map {
+            height: 500px;
+            width: 600px;
+        }
+    </style> -->
+</head>
+
+<body>
+    <div id="map" style="width: 600px; height:500px;"></div>
+    <form action="#" id="touroku">
+        <p>店の名前：
+            <input type="text" name="name" size="15" id="store" class="baito">
+        </p>
+        <p>時給：
+            <input type="text" name="name" size="15" id="money" class="baito">
+        </p>
+        <p>仕事内容：
+            <input type="text" name="name" size="15" id="work" class="baito">
+        </p>
+        <p>労働時間：
+            <input type="text" name="name" size="15" id="work_time" class="baito">
+        </p>
+        <p>連絡先：
+            <input type="text" name="address" size="15" id="phone" class="baito">
+        </p>
+        <p><input type="button" value="送信する" id="button2"></p>
+    </form>
+    <script src="manage.js"></script>
+</body>
+
+</html>
